@@ -346,28 +346,46 @@ img {
   z-index: var(--z-back);
 }
 .skills__html {
-  width: 95%;
+  width: 0%;
 }
 .skills__css {
-  width: 85%;
+  width: 0%;
 }
 .skills__js {
-  width: 15%;
+  width: 0%;
 }
 .skills__bootstrap {
-  width: 65%;
+  width: 0%;
 }
 .skills__php {
-  width: 65%;
+  width: 0%;
 }
 .skills__c-plus-plus {
-  width: 45%;
+  width: 0%;
 }
 .skills__java {
-  width: 85%;
+  width: 0%;
 }
 .skills__phyton {
-  width: 35%;
+  width: 0%;
+}
+.skills__windows {
+  width: 0%;
+}
+.skills__visual-studio {
+  width: 0%;
+}
+.skills__mysql {
+  width: 0%;
+}
+.skills__git {
+  width: 0%;
+}
+.skills__github {
+  width: 0%;
+}
+.skills__netbeans {
+  width: 0%;
 }
 
 
@@ -473,9 +491,13 @@ input::placeholder{
     text-align: initial;
   }
   .skills__container {
-    grid-template-columns: 0.7fr;
+    grid-template-columns: 0.4fr;
     justify-content: center;
     column-gap: 1rem;
+  }
+  .tools__container{
+    justify-content: center;
+    grid-template-columns: 0.4fr;
   }
   .work__container {
     grid-template-columns: repeat(2, 1fr);
